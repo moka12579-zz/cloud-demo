@@ -1,0 +1,20 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8801/eureka,http://localhost:8800/eureka
+server:
+  port: 8989
+
+spring:
+  application:
+    name: cloud-zuul
+
+#路由的配置
+zuul:
+  routes:
+    order:
+      path: /order/**
+      serviceId: cloud-order
+    product:
+      path: /product/**
+      serviceId: cloud-product

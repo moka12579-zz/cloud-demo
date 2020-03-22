@@ -1,0 +1,33 @@
+server:
+  port: 8804
+
+#指定当前服务的名称  会注册到注册中心
+spring:
+  application:
+    name: cloud-user
+
+#  指定 服务注册中心的地址
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8801/eureka,http://localhost:8800/eureka
+
+# info 的配置是自定义
+#  项目启动后 请求http://192.168.0.128:8803/actuator/info
+#  会以json的格式请求到配置内容
+info:
+  app.name: cloud-user
+  company.name: www.baizhiedu.com
+  build.artifactId: cloud-user
+  hhhh: hhhh
+
+logging:
+  level:
+    root: error
+#    开启Feign所在包的日志
+    com.baizhi.feign: debug
+
+# 配置打开断路器
+feign:
+  hystrix:
+    enabled: true

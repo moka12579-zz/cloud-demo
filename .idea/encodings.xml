@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-config" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-config/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-order" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-order/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-product" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-product/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-user-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-user-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-zuul" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-zuul/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-dash" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-dash/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-server2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka-server2/src/main/java" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,16 @@
+server:
+  port: 8802
+  servlet:
+    context-path: /product-server
+
+
+#指定当前服务的名称
+spring:
+  application:
+    name: cloud-product
+
+#  指定 服务注册中心的地址
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8801/eureka

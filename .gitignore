@@ -1,0 +1,9 @@
+# Project exclude paths
+/cloud-config/target/
+/cloud-order/target/
+/cloud-product/target/
+/cloud-user-client/target/
+/cloud-zuul/target/
+/eureka-dash/target/
+/eureka-server/target/
+/eureka-server2/target/
